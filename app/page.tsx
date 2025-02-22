@@ -30,19 +30,32 @@ export default function Home() {
             Gadahere is Coming Soon – Be the First to Join!
           </h1>
           <p className="text-gray-500">
-            Imagine a world where saving and sharing products is effortless,
-            discovering the best deals is seamless, and connecting with vendors
-            happens in just a tap. That’s what Gadahere is all about! Our app is
-            designed to help you explore products with ease, save your
-            favorites, and interact with vendors—all in one place.
+            Imagine a world where payments and communities blend effortlessly,
+            discovering top shopping deals is seamless, and connecting with
+            vendors happens in just a tap. That's what Gadahere is all about!
           </p>
           <p className="text-gray-500">
-            {" "}
-            Be among the first to experience the future of effortless shopping
-            and sharing. Click below to join our community and stay updated! 🚀
+            Our app simplifies your shopping experience, allowing you to:
+            <ul>
+              <li>• ⁠⁠Make effortless payments</li>
+              <li>•⁠ ⁠Explore eCommerce listings with ease</li>
+              <li>•⁠ ⁠Stay connected with your community</li>
+              <li>•⁠ ⁠Interact with vendors in one convenient place</li>
+            </ul>
+          </p>
+          <p className="text-gray-500">
+            Be among the first to experience the future of social payment and
+            commerce. Click below to join our community and stay updated! 🚀
           </p>
 
-          <EmailForm />
+          <button
+            className="max-w-sm flex h-14 shrink-0 items-center justify-center gap-1 rounded-lg bg-[#000F2D] px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-zinc-700"
+            type="submit"
+          >
+            <span>Join the community</span>
+          </button>
+
+          {/* <EmailForm /> */}
         </main>
       </section>
     </>
